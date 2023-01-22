@@ -1,4 +1,15 @@
-def greetings_function(name, age):
-    print('Welcome ' +name +  'You are '+str(age)+ 'years old')
+# learning about function definition
+# def greetings_function(name, age):
+#     print('Welcome ' +name +  ' You are '+str(age)+ ' years old')
 
-greetings_function('John', 65)
+# name = input('Enter your name: ')
+# age = input('Enter your age: ')
+# greetings_function(name, age)
+
+# learning the return statement
+def add_numbers(num1, num2):
+    return num1+num2
+
+num1 = int(input('Enter first number: '))
+num2 = int(input('Enter second number: '))
+print(add_numbers(num1,num2))
