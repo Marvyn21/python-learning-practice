@@ -67,3 +67,20 @@ for lists in my_list:
     for row in lists:
         print(row)
 '''
+
+# TRY EXCEPT
+'''
+try:
+    x = int(input('Input an integer: '))
+    print(x)countries
+except :
+    print('Something went wrong')
+finally: 
+    print('try except finished')
+'''
+
+# READING FILES IN PYTHON
+
+country_file = open('the_new.py', 'w')
+country_file.write('print(\'This is the new file\')')
+country_file.close()
