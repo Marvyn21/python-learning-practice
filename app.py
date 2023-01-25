@@ -110,3 +110,25 @@ class Person(Student):
 p1 = Person()
 print(p1.name)
 ''' 
+
+# LOGIN AND SIGNUP SYSTEM
+''' 
+print('Create user account now')
+username = input('Enter Username: ')
+password = input('Enter Password: ')
+
+print('Your account has been created succesfullly')
+print('Login now!')
+
+username2 = input('Enter username: ')
+password2 = input('Enter password: ')
+
+if username == username2 and password == password2:
+    print('Logged in succesfully')
+else:
+    print('Invalid credentials')
+'''
+
+import the_new 
+
+the_new.say_hi()
