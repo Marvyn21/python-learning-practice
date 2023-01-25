@@ -80,8 +80,33 @@ finally:
 '''
 
 # READING FILES IN PYTHON
+'''
+country_file = open('the_new.py', 'w')
+country_file.write('print(\'This is the new file\')')
+country_file.close()
+'''
 
-# country_file = open('the_new.py', 'w')
-# country_file.write('print(\'This is the new file\')')
-# country_file.close()
+# CLASSES AND OBJECTS 
+''' 
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+name = input('Enter your name: ')
+age = input('Enter your age: ')
+p1 = person(name, age)
+print(p1.name)
+print(p1.age)
+'''
+
+# INHERITANCE
+''' 
+from the_new import Student
+
+class Person(Student):
+    pass
+
+p1 = Person()
+print(p1.name)
+''' 
