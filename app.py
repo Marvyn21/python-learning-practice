@@ -81,6 +81,7 @@ finally:
 
 # READING FILES IN PYTHON
 
-country_file = open('the_new.py', 'w')
-country_file.write('print(\'This is the new file\')')
-country_file.close()
+# country_file = open('the_new.py', 'w')
+# country_file.write('print(\'This is the new file\')')
+# country_file.close()
+
